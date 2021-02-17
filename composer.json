@@ -1,23 +1,23 @@
 {
-    "name": "flipninja/axcelerate-laravel",
-    "description": "A Laravel service provider for flipninja/axcelerate-php.",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Lachlan du Preez",
-            "email": "naph@getgood.gg"
-        }
-    ],
-    "require": {
-        "flipninja/axcelerate-php": "dev-master",
-        "illuminate/support": "^5.1"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^5.6"
-    },
-    "autoload": {
-        "psr-4": {
-            "FlipNinja\\AxcelerateLaravel\\": "src"
-        }
+  "name": "flipninja/axcelerate-laravel",
+  "description": "A Laravel service provider for flipninja/axcelerate-php.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lachlan du Preez",
+      "email": "lachy@weareflip.com"
     }
+  ],
+  "require": {
+    "flipninja/axcelerate-php": "^0.4.0",
+    "illuminate/support": "^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "FlipNinja\\AxcelerateLaravel\\": "src"
+    }
+  }
 }
